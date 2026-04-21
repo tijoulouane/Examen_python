@@ -380,8 +380,7 @@ def mettre_a_jour_tableau_de_bord(sexes_selectionnes, villes_selectionnees):
 
     return indicateur_total, indicateur_nombre, figure_ligne, figure_barres, figure_camembert
 
-
-if __name__ == "__main__":
-    application.run(debug=True)
+application = Dash(__name__)
+server = application.server
 
 
