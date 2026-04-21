@@ -382,6 +382,6 @@ def mettre_a_jour_tableau_de_bord(sexes_selectionnes, villes_selectionnees):
 
 
 if __name__ == "__main__":
-    application.run(debug=True, port=8097, jupyter_mode="external")
+    application.run(debug=True)
 
 
