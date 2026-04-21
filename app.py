@@ -33,6 +33,7 @@ genders = sorted(df["Gender"].dropna().unique())
 # %%
 # Initialisation de l'application Dash
 application = Dash(__name__)
+server = application.server
 application.title = "Tableau de bord - Ventes supermarché"
 
 # Couleurs et styles
